@@ -1,7 +1,7 @@
 const BlueCrowdsale = artifacts.require('./BlueCrowdsale.sol');
 
 module.exports = function (deployer, network, accounts) {
-    const rate = new web3.BigNumber(1000);
+   // const rate = new web3.BigNumber(1000);
 
     return liveDeploy(deployer, accounts);
 };
