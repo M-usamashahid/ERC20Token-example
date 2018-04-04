@@ -21,12 +21,9 @@ const Rate = 1;
 ### Deploy using truffle: 
 
 To test on the Ropsten network, execute `truffle migrate --network ropsten` which uses the existing API keys in `/truffle.js`.
-
+To Compile on mainnet, execute `truffle compile`.
 To deploy on mainnet, execute `truffle migrate`.
 
-
-## Per module description
-The system has 1 main module - the token module.
 
 ## Use of zeppelin code
 We use open-zepplin code for `SafeMath`, `Ownable`,  `Crowdsale`,`StandardToken` and `Mintable` logic.
